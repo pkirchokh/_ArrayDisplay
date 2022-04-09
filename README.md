@@ -1,0 +1,2 @@
+# _ArrayDisplay
+  Next     ReDim $aArr[$y][$x] EndFunc  Local $a[3][5] = [[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15]] _ArrayDisplay($a) _ArrayTranspose($a) _ArrayDisplay($a)  Local $a[2][2] = [[1,2],[3,4]] _ArrayDisplay($a) _ArrayTranspose($a) _ArrayDisplay($a)  Local $a[2][3] = [[1,2,3],[4,5,6]] _ArrayDisplay($a) _ArrayTranspose($a) _ArrayDisplay($a)  Local $a[3][2] = [[1,2],[3,4],[5,6]] _ArrayDisplay($a) _ArrayTranspose($a) _ArrayDisplay($a)  Local $a[1][1] = [[1]] _ArrayDisplay($a) _ArrayTranspose($a)
